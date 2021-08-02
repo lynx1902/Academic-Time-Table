@@ -12,32 +12,32 @@ const SUBJECTS = {
   },
 
   "slotC": {
-    name: "Integral Transforms and Partial Differential Equations",
+    name: "ITPDE",
     link: ""
   },
 
   "slotD": {
-    name: "Measurement and Instrumentation",
+    name: "M & I",
     link: ""
   },
 
   "slotE": {
-    name: "Electromagnetics",
+    name: "EMF",
     link: ""
   },
 
   "slotF": {
-    name: "Signal & Systems",
+    name: "S & S",
     link: ""
   },
 
   "slotG": {
-    name: "Electronics Devices and Circuits",
+    name: "EDC",
     link: ""
   },
 
   "slotH": {
-    name: "Network Theory",
+    name: "NT",
     link: ""
   }
 };
