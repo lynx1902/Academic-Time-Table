@@ -7,13 +7,13 @@ const SUBJECTS = {
   },
 
   "slotB": {
-    name: "IS/MFM/Ger/Math OC",
+    name: "All Other OC",
     link: ""
   },
 
   "slotC": {
     name: "IEV",
-    link: ""
+    link: "https://meet.google.com/qpn-chbx-bvu"
   },
 
   "slotD": {
@@ -51,11 +51,37 @@ const SUBJECTS = {
     link: "https://vnit.webex.com/meet/bhooshanar"
   },
   
-  "slotPrac": {
-    name: "HVE LAB",
+  // Practicals
+  "slotprac1": {
+    name: "HVE LAB B1",
+    link: ""
+  },
+  
+"slotprac2": {
+    name: "HVE LAB B2",
     link: ""
   },
 
+"slotprac3": {
+    name: "HVE LAB B3",
+    link: ""
+  },
+  
+"slotprac4": {
+    name: "HVE LAB B4",
+    link: ""
+  },
+
+ "slotprac5": {
+    name: "HVE LAB B5",
+    link: ""
+  },
+  
+ "slotprac6": {
+    name: "HVE LAB B6",
+    link: ""
+  }, 
+  
   "slot": {
     name: "",
     link: "#"
@@ -63,30 +89,3 @@ const SUBJECTS = {
 };
 
 // Practicals
-
-const PRACTICALS = [
-  [
-    ['', '', 'HVE B3', '', ''], // Mon 4:00pm-4:45pm
-    ['', '', ''] // Mon 5:00pm-5:45pm
-  ], 
-  [
-    ['', '', 'HVE B4', '', ''], // Tue 4:00pm-4:45pm
-    ['', '', '']  // Tue 5:00pm-5:45pm
-  ], 
-  [
-    ['', '', 'HVE B5', '', ''], // Wed 4:00pm-4:45pm
-    ['', '', '']  // Wed 5:00pm-5:45pm
-  ], 
-  [
-    ['', '', 'HVE B6', '', ''], // Thu 4:00pm-4:45pmr
-    ['', '', '']  // Thur 5:00pm-5:45pm
-  ], 
-  [
-    ['', '', 'HVE B1', '', ''], // Fri 4:00pm-4:45pm
-    ['', '', '']  // Fri 5:00pm-5:45pm
-  ], 
-  [
-    ['', '', 'HVE B2', '', ''], // Sat 4:00pm-4:45pm
-    ['', '', '']  // Sat 5:00pm-5:45pm
-  ], 
-]
