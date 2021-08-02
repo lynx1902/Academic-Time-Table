@@ -78,7 +78,7 @@ const PRACTICALS = [
   ], 
   [
     ['EMC-II (B6)', 'CS-I (B2)'], // Fri 4:00pm-4:45pm
-    ['IA (B6)', '', '']  // Fri 5:00pm-5:45pm
+    ['IA (B6)']  // Fri 5:00pm-5:45pm
   ], 
   [
     ['EMC-II (B1)', 'CS-I (B3)'], // Sat 4:00pm-4:45pm
