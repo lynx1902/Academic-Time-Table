@@ -36,9 +36,17 @@ const SUBJECTS = {
     link: ""
   },
 
-  "slotFb": {
+  "slotFb_tue": {
     name: "OT",
-    link: ""
+    link: "https://vnit.webex.com/vnit/j.php?MTID=m77b4f4d72107b22857186444480f44cc"
+  },
+  "slotFb_wed": {
+    name: "OT",
+    link: "https://vnit.webex.com/vnit/j.php?MTID=m0449013e586155f0fd3209cc4be2c7a2"
+  },
+  "slotFb_thu": {
+    name: "OT",
+    link: "https://vnit.webex.com/vnit/j.php?MTID=m3ffbe5e61ae1eb70f38b5d2f0aeff1e2"
   },
 
   "slotG": {
