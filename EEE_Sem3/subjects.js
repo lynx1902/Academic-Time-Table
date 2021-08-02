@@ -7,8 +7,8 @@ const SUBJECTS = {
   },
 
   "slotB": {
-    name: "---",
-    link: ""
+    name: "M & I",
+    link: "https://vnit.webex.com/meet/mrramteke"
   },
 
   "slotC": {
@@ -17,8 +17,8 @@ const SUBJECTS = {
   },
 
   "slotD": {
-    name: "M & I",
-    link: "https://vnit.webex.com/meet/mrramteke"
+    name: "---",
+    link: ""
   },
 
   "slotEmon": {
