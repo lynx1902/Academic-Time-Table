@@ -54,6 +54,10 @@ const SUBJECTS = {
   "slotH": {
     name: "NT",
     link: "https://vnit.webex.com/meet/hmsuryawanshi"
+  },
+  "slot": {
+    name: "",
+    link: "#"
   }
 };
 
@@ -62,7 +66,7 @@ const SUBJECTS = {
 const PRACTICALS = [
   [
     ['', '', '', '', ''], // Mon 4:00pm-4:45pm
-    ['', '', ''] // Mon 5:00pm-5:45pm
+    ['EDC (B123)', '', ''] // Mon 5:00pm-5:45pm
   ], 
   [
     ['', '', '', '', ''], // Tue 4:00pm-4:45pm
@@ -78,7 +82,7 @@ const PRACTICALS = [
   ], 
   [
     ['', '', '', '', ''], // Fri 4:00pm-4:45pm
-    ['', '', '']  // Fri 5:00pm-5:45pm
+    ['NT (B12)', '', '']  // Fri 5:00pm-5:45pm
   ], 
   [
     ['', '', '', '', ''], // Sat 4:00pm-4:45pm
