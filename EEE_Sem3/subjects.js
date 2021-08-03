@@ -57,7 +57,7 @@ const SUBJECTS = {
   },
   "slot": {
     name: "",
-    link: "#"
+    link: ""
   },
 
  "slotedcprac123": {
