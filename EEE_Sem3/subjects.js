@@ -58,19 +58,17 @@ const SUBJECTS = {
   "slot": {
     name: "",
     link: "#"
-  }
-};
+  },
 
  "slotedcprac123": {
     name: "EDC Prac B1,B2,B3",
     link: "https://vnit.webex.com/meet/himanshupadole.aapp"
-  }
-};
+  },
 
  "slotntprac12": {
     name: "NT Prac B1,B2",
     link: ""
-  }
+  },
 };
 
 // Practicals
