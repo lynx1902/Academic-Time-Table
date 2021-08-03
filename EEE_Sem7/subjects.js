@@ -84,7 +84,7 @@ const SUBJECTS = {
   
   "slot": {
     name: "",
-    link: "#"
+    link: ""
   }
 };
 

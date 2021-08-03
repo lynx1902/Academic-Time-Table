@@ -1,12 +1,12 @@
 function load() {
   for (const [slot, subject] of Object.entries(SUBJECTS)) {
     var anchors = document.getElementsByClassName(slot);
+    if (subject.name === "slot") { continue; }
     for(var i = 0; i < anchors.length; i++) {
         anchors[i].innerHTML = subject.name;
-        if (slot == "slotDa") { continue; }
         anchors[i].onclick = function() {
-          // alert('Slot: '+slot+'\nSubject: '+subject.name+'\nLink: '+subject.link);
-          if (subject.link != "")
+          (subject.link == "") ? 
+            alert('Slot: '+slot+'\nSubject: '+subject.name+'\nLink: '+"Not Provided") :
             window.open(subject.link);
       }
     }
