@@ -57,35 +57,16 @@ const SUBJECTS = {
   },
   "slot": {
     name: "",
-    link: "#"
-  }
+    link: ""
+  },
+
+ "slotedcprac123": {
+    name: "EDC Prac B1,B2,B3",
+    link: "https://vnit.webex.com/meet/himanshupadole.aapp"
+  },
+
+ "slotntprac12": {
+    name: "NT Prac B1,B2",
+    link: ""
+  },
 };
-
-// Practicals
-
-const PRACTICALS = [
-  [
-    ['', '', '', '', ''], // Mon 4:00pm-4:45pm
-    ['EDC (B123)', '', ''] // Mon 5:00pm-5:45pm
-  ], 
-  [
-    ['', '', '', '', ''], // Tue 4:00pm-4:45pm
-    ['', '', '']  // Tue 5:00pm-5:45pm
-  ], 
-  [
-    ['', '', '', '', ''], // Wed 4:00pm-4:45pm
-    ['', '', '']  // Wed 5:00pm-5:45pm
-  ], 
-  [
-    ['', '', '', '', ''], // Thu 4:00pm-4:45pmr
-    ['', '', '']  // Thur 5:00pm-5:45pm
-  ], 
-  [
-    ['', '', '', '', ''], // Fri 4:00pm-4:45pm
-    ['NT (B12)', '', '']  // Fri 5:00pm-5:45pm
-  ], 
-  [
-    ['', '', '', '', ''], // Sat 4:00pm-4:45pm
-    ['', '', '']  // Sat 5:00pm-5:45pm
-  ], 
-]

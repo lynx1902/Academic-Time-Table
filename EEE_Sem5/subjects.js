@@ -18,7 +18,7 @@ const SUBJECTS = {
 
   "slotDa": {
     name: "EPS sec.A",
-    link: ""
+    link: "https://us04web.zoom.us/j/4908242577?pwd=NmVaT0ZmckdCOVJqa2tTcGh6eUdDQT09"
   },
   
    "slotDb": {
@@ -61,7 +61,7 @@ const SUBJECTS = {
 
   "slot": {
     name: "",
-    link: "#"
+    link: ""
   }
 };
 

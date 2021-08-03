@@ -3,9 +3,11 @@ function load() {
     var anchors = document.getElementsByClassName(slot);
     for(var i = 0; i < anchors.length; i++) {
         anchors[i].innerHTML = subject.name;
+        if (slot == "slotDa") { continue; }
         anchors[i].onclick = function() {
-            // alert('Slot: '+slot+'\nSubject: '+subject.name+'\nLink: '+subject.link);
-            location.href=subject.link
+          // alert('Slot: '+slot+'\nSubject: '+subject.name+'\nLink: '+subject.link);
+          if (subject.link != "")
+            window.open(subject.link);
       }
     }
   }

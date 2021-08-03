@@ -7,6 +7,8 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <link rel="stylesheet" href="styles.css">
 
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
 </head>
 
 <script src="subjects.js"></script>
@@ -60,7 +62,7 @@
               <td colspan="2" class="slotH">slot H</td>
               <td colspan="1" class="slotFa">slot Fa</td>
               <td colspan="1" class="slotFb_tue">slot Fb</td>
-              <td colspan="1" class="slotDa">slot D</td>
+              <td colspan="1" class="slotDa" onclick="showModal()">slot D</td>
               <td colspan="1" class="slotDb">slot D</td>
               <td colspan="2" class="slotA">slot A</td>
               <td colspan="2" class="slotE">slot E</td>
@@ -76,7 +78,7 @@
               <td colspan="2" class="slotE">slot E</td>
               <td colspan="1" class="slotB">slot B</td>
               <td colspan="1" class="slotFb_wed">slot Fb</td>
-              <td colspan="1" class="slotFb">slot Fb</td>
+              <td colspan="1" class="slotFb_wed">slot Fb</td>
               <td colspan="1" class="slotFa">slot Fa</td>
               <td colspan="1" id="p20a"></td>
               <td colspan="1" id="p20b"></td>
@@ -84,7 +86,7 @@
             </tr>
             <tr>
               <th colspan="2" scope="row">THURSDAY</th>
-              <td colspan="2" class="slotDa">slot D</td>
+              <td colspan="2" class="slotDa" onclick="showModal()">slot D</td>
               <td colspan="2" class="slotB">slot B</td>
               <td colspan="2" class="slotH">slot H</td>
               <td colspan="1" class="slotFa">slot Fa</td>
@@ -101,7 +103,7 @@
               <td colspan="2" class="slotC">slot C</td>
               <td colspan="2" class="slotA">slot A</td>
               <td colspan="2" class="slotG">slot G</td>
-              <td colspan="1" class="slotDa">slot D</td>
+              <td colspan="1" class="slotDa" onclick="showModal()">slot D</td>
               <td colspan="1" class="slotDb">slot D</td>
               <td colspan="2" class="slotE"></td>
               <td colspan="1" id="p40a"></td>
@@ -112,7 +114,7 @@
               <th colspan="2" scope="row">SATURDAY</th>
               <td colspan="1" class="slot">slot Fa</td>
               <td colspan="1" class="slot">slot Fb</td>
-              <td colspan="1" class="slotDa">slot D</td>
+              <td colspan="1" class="slotDa" onclick="showModal()">slot D</td>
               <td colspan="1" class="slotDb">slot D</td>
               <td colspan="2" class="slotB">slot B</td>
               <td colspan="2" class="slotH">slot H</td>
@@ -124,6 +126,35 @@
             </tr>
           </tbody>
         </table>
+        
+        <div id="test" class="modal fade" tabindex="-1" style="display: none; background-color: rgba(0,0,0,0.5);">
+          <div class="modal-dialog">
+            <div class="modal-content text-left" style="background-color: rgb(75, 0, 130);">
+              <div class="modal-header">
+                <h4 class="modal-title slotDa">SlotD</h4>
+                <button type="button" class="close" onclick="closeModal()"><span>×</span></button>
+              </div>
+              <div class="modal-body">
+                Zoom Link: <a href="javascript:void(0);" onClick="window.open(SUBJECTS.slotDa.link);"><script type="text/javascript">document.write(SUBJECTS.slotDa.link);</script></a>
+                <br>
+                Password: <code>psd1</code>
+              </div>
+            </div>
+          </div>
+        </div>
+        <script type="text/javascript">
+          function showModal() {
+            var x = document.getElementById("test");
+            x.classList.add('show')
+            x.style.display = "block";
+        }
+          function closeModal() {
+            var x = document.getElementById("test");
+            x.classList.remove('show')
+            x.style.display = "none";
+          }
+        </script>
+
       </div>
      <!-- <div class="row">
         <div class="col-lg">
