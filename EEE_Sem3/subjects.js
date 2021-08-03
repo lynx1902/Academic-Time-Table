@@ -61,9 +61,21 @@ const SUBJECTS = {
   }
 };
 
+ "slotedcprac123": {
+    name: "EDC Prac B1,B2,B3",
+    link: "https://vnit.webex.com/meet/himanshupadole.aapp"
+  }
+};
+
+ "slotntprac12": {
+    name: "NT Prac B1,B2",
+    link: ""
+  }
+};
+
 // Practicals
 
-const PRACTICALS = [
+<!-- const PRACTICALS = [
   [
     ['', '', '', '', ''], // Mon 4:00pm-4:45pm
     ['EDC (B123)', '', ''] // Mon 5:00pm-5:45pm
@@ -88,4 +100,4 @@ const PRACTICALS = [
     ['', '', '', '', ''], // Sat 4:00pm-4:45pm
     ['', '', '']  // Sat 5:00pm-5:45pm
   ], 
-]
+] -->
