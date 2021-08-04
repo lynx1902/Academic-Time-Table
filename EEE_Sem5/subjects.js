@@ -51,7 +51,7 @@ const SUBJECTS = {
 
   "slotG": {
     name: "EMD",
-    link: ""
+    link: "https://vnit.webex.com/vnit/k2/j.php?MTID=t0ab8f5fae6bc4044b2e355eb582cede7"
   },
 
   "slotH": {
