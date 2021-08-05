@@ -33,7 +33,7 @@ const SUBJECTS = {
 
   "slotFa": {
     name: "EPDS",
-    link: "https://vnit.webex.com/vnit/j.php?MTID=m076abf70bc686c0a4e546a05c3658db0"
+    link: "https://vnit.webex.com/vnit/j.php?MTID=m90eefee0a41e7916f4b1eda32ceac820"
   },
 
   "slotFb_tue": {
