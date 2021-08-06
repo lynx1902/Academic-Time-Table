@@ -18,7 +18,7 @@ const SUBJECTS = {
 
   "slotD": {
     name: "HVE",
-    link: "https://vnit.webex.com/vnit/j.php?MTID=mb7ee31346579e8497de8d8181eeec168"
+    link: "https://vnit.webex.com/vnit/j.php?MTID=md946f4dfa5a9cb3dec842289cf94996b"
   },
 
   "slotE": {
