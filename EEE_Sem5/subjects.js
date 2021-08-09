@@ -13,7 +13,7 @@ const SUBJECTS = {
 
   "slotC": {
     name: "EMC II",
-    link: "https://vnit.webex.com/vnit/k2/j.php?MTID=tfac682d86796e9f23d64391ea095cbd5"
+    link: "https://vnit.webex.com/vnit/k2/j.php?MTID=tf32c53d5c45b4ad99e8a30c02012ceab"
   },
 
   "slotDa": {
