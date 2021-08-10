@@ -13,7 +13,7 @@ const SUBJECTS = {
 
   "slotC": {
     name: "EMC II",
-    link: ""
+    link: "https://vnit.webex.com/vnit/k2/j.php?MTID=tf32c53d5c45b4ad99e8a30c02012ceab"
   },
 
   "slotDa": {
@@ -31,9 +31,19 @@ const SUBJECTS = {
     link: "https://vnit.webex.com/vnit/j.php?MTID=m2daa28158157529f2b4112d79e0e9aba"
   },
 
-  "slotFa": {
+  "slotFa_tue": {
     name: "EPDS",
-    link: ""
+    link: "https://vnit.webex.com/vnit/j.php?MTID=m29d27fedcb3f2da7e0010417a326bbe0"
+  },
+
+  "slotFa_wed": {
+    name: "EPDS",
+    link: "https://vnit.webex.com/vnit/j.php?MTID=m076abf70bc686c0a4e546a05c3658db0"
+  },
+
+  "slotFa_thu": {
+    name: "EPDS",
+    link: "https://vnit.webex.com/vnit/j.php?MTID=m90eefee0a41e7916f4b1eda32ceac820"
   },
 
   "slotFb_tue": {
@@ -51,7 +61,7 @@ const SUBJECTS = {
 
   "slotG": {
     name: "EMD",
-    link: ""
+    link: "https://vnit.webex.com/vnit/k2/j.php?MTID=t0ab8f5fae6bc4044b2e355eb582cede7"
   },
 
   "slotH": {
