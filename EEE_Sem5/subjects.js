@@ -31,7 +31,17 @@ const SUBJECTS = {
     link: "https://vnit.webex.com/vnit/j.php?MTID=m2daa28158157529f2b4112d79e0e9aba"
   },
 
-  "slotFa": {
+  "slotFa_tue": {
+    name: "EPDS",
+    link: "https://vnit.webex.com/vnit/j.php?MTID=m29d27fedcb3f2da7e0010417a326bbe0"
+  },
+
+  "slotFa_wed": {
+    name: "EPDS",
+    link: "https://vnit.webex.com/vnit/j.php?MTID=m076abf70bc686c0a4e546a05c3658db0"
+  },
+
+  "slotFa_thu": {
     name: "EPDS",
     link: "https://vnit.webex.com/vnit/j.php?MTID=m90eefee0a41e7916f4b1eda32ceac820"
   },
